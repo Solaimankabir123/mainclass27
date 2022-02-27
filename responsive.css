@@ -1,0 +1,38 @@
+@media(max-width:1330px){
+    .fix-width {
+        width: 100%;
+    }
+}
+
+@media(max-width:1036px){
+    .header {
+        padding: 24px 0;
+    }
+    .menu {
+        width: 81% !important;
+        font-size: 12px !important;
+    }
+
+}
+@media(max-width:990px){
+    .logo {
+        width: 25% !important;
+    }
+    .menu {
+        width: 70% !important;
+        font-size: 24px !important;
+    }
+}
+@media (max-width:850px){
+    .logo {
+        display: block !important;
+    }
+    .responsive-menu{
+        display: block !important;
+        float: right;
+    }
+    .menu {
+        width: 100% !important;
+        font-size: 20px !important;
+    }
+}
